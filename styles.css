@@ -1,9 +1,22 @@
+/*Kaila Trafton
+8/27/2026
+styles.css*/
+
 header {
-        color:brown
+        color:brown;
     }
 footer {
-        color:brown
+        color:brown;
+        background: blanchedalmond;
+        padding: 20px;
     }
 title {
         font-family: 'Times New Roman', Times, serif;
     }
+body {
+    color: black;
+}
+
+#myname {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
