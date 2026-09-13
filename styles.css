@@ -20,3 +20,15 @@ body {
 #myname {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
+a:link {
+    color: darkolivegreen;
+}
+
+a:visited {
+    color: darkgoldenrod;
+}
+
+img {
+    border: 5px solid black;
+}
