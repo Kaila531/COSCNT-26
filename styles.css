@@ -7,13 +7,14 @@ header {
     }
 footer {
         color:brown;
-        background: blanchedalmond;
+        background: burlywood;
         padding: 20px;
     }
 title {
         font-family: 'Times New Roman', Times, serif;
     }
 body {
+    background-color: antiquewhite;
     color: black;
 }
 
@@ -31,4 +32,8 @@ a:visited {
 
 img {
     border: 5px solid black;
+}
+
+.sidebar {
+    position: fixed;
 }
