@@ -1,11 +1,11 @@
-function calculatetip () {
+function calculateTip () {
     let bill =
     Number (document.getElementById
         ("billAmount").value);
 
     let service =
     Number(document.getElementById
-        ("serviceQuality").value);
+        ("sQuality").value);
 
     let tip = billAmount * service;
     let total = billAmount + tip;
@@ -14,4 +14,4 @@ function calculatetip () {
 
 document.getElementById("calcBtn")
 .onclick =
-calculatetip;
+calculateTip;
