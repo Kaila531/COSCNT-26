@@ -13,21 +13,9 @@ calculator.html-->
 </head>
 
 <center>
-<body>
-    
-    <aside class="sidebar">
-        <p>This is a sidebar!</p>
-    </aside>
-    
-    <header>
-        <h1 id="myname">Kaila Trafton</h1>
-        <h3>Student</h3>
-
-        <img src="images/selfie2.jpg" alt="selfie">
-    </header>
-
-        <p>I am currently working towards a degree in business information systems. I have taken a previous class similar to this one but am still new to coding and I really enjoy it.<br>
-        Though I may not be pursuing a career in web development, it is interesting to see just how much work goes into creating even a simple website.</p>
+<aside class="sidebar">
+        
+        <p>Where do I go?</p>
     
     <nav>
         <ul>
@@ -36,6 +24,14 @@ calculator.html-->
             <li><a href="calculator.html">Calculator</a></li>
         </ul>
     </nav>
+</aside>
+
+<body>
+    
+    <header>
+        <h1 id="myname">Calculator</h1>
+        <h3>Tips</h3>
+    </header>
 
 <!--add calculator here-->
     <div class="box">
@@ -43,13 +39,14 @@ calculator.html-->
         <h4>Tip Calculator</h4>
         <label>Bill Amount:<input name="billAmount" id= "billAmount" type="text" maxlength="7"</label>
         <p><label>Service Quality:</label>
-        <select name="squality">
+        <select id="sQuality" name="sQuality">
             <option value="0.25">Excellent (25%)</option>
             <option value="0.20">Good (20%)</option>
             <option value="0.15">Fair (15%)</option>
             <option value="0.10">Poor (10%)</option>
         </select></p>
-        <p><button id="calcBtn">Calculate Tip</button></p>
+        <p><button id="calcBtn" type="button">Calculate Tip</button></p>
+        <p id="output"></p>
     </form>
     </div>
 

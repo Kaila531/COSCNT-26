@@ -1,5 +1,5 @@
 function calculateTip () {
-    let bill =
+    let billAmount =
     Number (document.getElementById
         ("billAmount").value);
 
@@ -10,8 +10,10 @@ function calculateTip () {
     let tip = billAmount * service;
     let total = billAmount + tip;
 
+document.getElementById("output").textContent =
+        `Tip: $${tip.toFixed(2)} | Total: $${total.toFixed(2)}`;
+
 }
 
-document.getElementById("calcBtn")
-.onclick =
-calculateTip;
+const btn = document.getElementById("calcBtn");
+btn.addEventListener("click", calculateTip);
