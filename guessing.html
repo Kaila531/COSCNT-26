@@ -41,10 +41,11 @@ guessing.html-->
             can guess it in 10 turns or fewer. We'll tell you if your guess was too<br>
             high or too low.
         </p>
-        <label>Enter a guess: <input name="guess" id= "guess" type="integer" maxlength="3"</label>
-        </select></p>
-        <button id="submit" type="button">Submit Guess</button>
-        <p id="output"></p>
+        <label>Enter a guess: <input type="number" id="guess" min="1" max="100"></label>
+        
+        <button type="button" onclick="checkGuess()">Guess</button>
+        <p id="message"></p>
+        <p id="guesses">Previous Guesses: </p>
     </form>
     </div>
 
@@ -52,7 +53,7 @@ guessing.html-->
         <a href="mailto:kailalujan@westernwyoming.edu">kailalujan@westernwyoming.edu</a>
     </footer>
 
-    <script src="calculator.js"></script>
+    <script src="guessing.js"></script>
 </body>
 
 </center>
