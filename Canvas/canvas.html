@@ -2,6 +2,7 @@
 11/6/2026
 canvas.html-->
 
+<!--added canvas-->
 <canvas width="600" height="200"></canvas>
 <script>
     let cx = document.querySelector("canvas").getContext("2d");
@@ -18,4 +19,18 @@ context.closePath();
 //Red Diamond
 context.fillStyle = "red";
 context.fillRect(10, 10, 50, 50);
+context.rotate(Math.PI/4);
+
+//Zigzagging Line
+context.beginPath();
+context.moveTo(0, 0);
+context.lineTo(10, 5);
+context.lineTo(0, 10);
+context.lineTo(10, 15);
+context.lineTo(0, 20);
+context.lineTo(10, 25);
+
+//Spiral made up of 100 straight line segments
+
+//A Yellow Star
 </script>
