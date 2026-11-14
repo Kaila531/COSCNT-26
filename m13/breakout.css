@@ -1,0 +1,22 @@
+/*
+Author: Kaila Trafton 
+Date: 11/13/2026
+File Name: breakout.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: lightblue;
+    border-style: solid, black;
+}
+
+canvas {
+    border-style: solid;
+    background-color: white;
+}
